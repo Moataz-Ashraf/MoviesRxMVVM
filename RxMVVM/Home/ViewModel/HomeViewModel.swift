@@ -9,29 +9,31 @@ import RxCocoa
 import RxSwift
 
 class HomeViewModel: HomeVMProtocol {
+    func viewDidLoad() {
+        NowPlayingPageSubscribe()
+
     
+        CategoryPageSubscribe()
+    }
+
+
     deinit{
         print("HomeViewModel")
     }
+    private let DisposeBags = DisposeBag()
+
     private var FilmsModelSubject = BehaviorRelay<[Results]>(value: [])
     var FilmsModelObservable: Observable<[Results]> {
         return FilmsModelSubject.asObservable()
     }
 
     private var NowPlayingPage = BehaviorRelay<Int>(value: 1)
-    var NowPlayingPageObservable: Observable<Int> {
-        return NowPlayingPage.asObservable()
-    }
+
 
     private var CategoryPage = BehaviorRelay<Int>(value: 1)
-    var CategoryPageObservable: Observable<Int> {
-        return CategoryPage.asObservable()
-    }
 
-    private var FilmsCategory = BehaviorRelay<String>(value:"top_rated")
-    var FilmsCategoryObservable: Observable<String> {
-        return  FilmsCategory.asObservable()
-    }
+    private var FilmsCategory = "top_rated"
+
 
     private(set) var FilmsLoading: BehaviorRelay<Bool> = BehaviorRelay<Bool>(value: false)
 
@@ -65,14 +67,37 @@ class HomeViewModel: HomeVMProtocol {
     }
 
     func setFilmCategory(category: String) {
-        self.FilmsCategory.accept(category)
+        self.ResetCategory()
+        self.FilmsCategory = category
     }
 
+    private
+    func NowPlayingPageSubscribe() {
+       NowPlayingPage.subscribe(onNext: {_ in
+            Task {
+                await self.LoadNowPlayingFilms()
+            }
+        }).disposed(by: DisposeBags)
+    }
+
+    private
+    func CategoryPageSubscribe() {
+       CategoryPage.subscribe(onNext: {_ in
+            Task {
+                await self.LoadCategoryFilms()
+            }
+        }).disposed(by: DisposeBags)
+    }
+
+
+
+    private
     func LoadNowPlayingFilms() async {
         loadingBehavior.accept(true)
         FilmsLoading.accept(true)
 
         do {
+
             let topRatedFilms = try await UserRouter.TopRatedFilm(Page: NowPlayingPage.value).send(Films.self)
 
             TopFilmsModelSubject.accept(TopFilmsModelSubject.value+(topRatedFilms.results ?? [] ))
@@ -87,12 +112,15 @@ class HomeViewModel: HomeVMProtocol {
         }
     }
 
+    private
     func LoadCategoryFilms() async {
         loadingBehavior.accept(true)
         FilmsLoading.accept(true)
 
         do {
-            let films = try await UserRouter.AllFilmsByCatergory(category: FilmsCategory.value, Page: CategoryPage.value).send(Films.self)
+
+            let films = try await UserRouter.AllFilmsByCatergory(category: FilmsCategory, Page: CategoryPage.value).send(Films.self)
+
             FilmsModelSubject.accept(FilmsModelSubject.value+(films.results ?? [] ))
             FilmsLoading.accept(false)
             loadingBehavior.accept(false)

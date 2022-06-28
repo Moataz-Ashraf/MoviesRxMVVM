@@ -35,15 +35,13 @@ class HomeViewController: UIViewController {
     // MARK: - override func
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         SetupMainView()
         setupTapButton()
 
         SubscribeLoading()
-        NowPlayingPageSubscribe()
-        CategoryFilmSubscribe()
-        CategoryFilmSubscribe()
-        CategoryPageSubscribe()
+        HomeVM.viewDidLoad()
         ErrorSubscription()
 
         SubscribeCollectionViewItems()
@@ -54,6 +52,7 @@ class HomeViewController: UIViewController {
         SubscribeTableViewItems()
         SelectedTableViewItems()
         didScrollingTableView()
+
     }
     
     deinit{
@@ -143,30 +142,7 @@ class HomeViewController: UIViewController {
             .bind(to: self.rx.isAnimating).disposed(by: DisposeBags)
     }
 
-    private
-    func NowPlayingPageSubscribe() {
-        HomeVM.NowPlayingPageObservable.subscribe(onNext: {_ in
-            Task {
-                await self.HomeVM.LoadNowPlayingFilms()
-            }
-        }).disposed(by: DisposeBags)
-    }
 
-    private
-    func CategoryPageSubscribe() {
-        HomeVM.CategoryPageObservable.subscribe(onNext: {_ in
-            Task {
-                await self.HomeVM.LoadCategoryFilms()
-            }
-        }).disposed(by: DisposeBags)
-    }
-
-    private
-    func CategoryFilmSubscribe() {
-        HomeVM.FilmsCategoryObservable.subscribe(onNext: {_ in
-            self.HomeVM.ResetCategory()
-        }).disposed(by: DisposeBags)
-    }
 
     private
     func ErrorSubscription() {
