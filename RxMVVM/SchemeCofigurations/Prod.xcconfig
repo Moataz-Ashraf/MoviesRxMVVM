@@ -1,0 +1,19 @@
+//
+//  Prod.xcconfig
+//  RxMVVM
+//
+//  Created by Moataz Ashraf on 24/12/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//Dev
+//Server Url //dummy url
+server_url = https:/$()/RxMVVM.dev.com
+
+//App Name
+app_name = RxMVVM-PROD
+
+//Bundle Identifier
+app_bundle_identifier = com.MAK.RxMVVM.prod

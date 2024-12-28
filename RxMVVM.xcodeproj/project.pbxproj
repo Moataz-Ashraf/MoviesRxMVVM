@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D058DE4B0FE02F141E8BAF0 /* Pods_RxMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F912EE1DC2326FEFF34122 /* Pods_RxMVVMTests.framework */; };
-		3C8922CB2E742BAC5689F8C6 /* Pods_RxMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F44E0F1D3901A7737D5E2 /* Pods_RxMVVM.framework */; };
 		41D6FC942D18B3B1008F30DA /* RxMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FC932D18B3B1008F30DA /* RxMVVMTests.swift */; };
 		41D6FC9E2D18B3B1008F30DA /* RxMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FC9D2D18B3B1008F30DA /* RxMVVMUITests.swift */; };
 		41D6FCA02D18B3B1008F30DA /* RxMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FC9F2D18B3B1008F30DA /* RxMVVMUITestsLaunchTests.swift */; };
@@ -43,7 +41,9 @@
 		41D6FCF72D18B42A008F30DA /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FCD82D18B42A008F30DA /* UserRouter.swift */; };
 		41D6FCF82D18B42A008F30DA /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FCD92D18B42A008F30DA /* RequestBuilder.swift */; };
 		41D6FCF92D18B42A008F30DA /* Supporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FCDA2D18B42A008F30DA /* Supporter.swift */; };
-		F5AE8B033734C60BDEF65F35 /* Pods_RxMVVM_RxMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE16891EA2173A54C18018F /* Pods_RxMVVM_RxMVVMUITests.framework */; };
+		60F95E8E75F66ECD91945FF0 /* Pods_RxMVVM_RxMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6007F4CA2A13786050B332B /* Pods_RxMVVM_RxMVVMUITests.framework */; };
+		B5E68C7D6C05F9E55DA6E886 /* Pods_RxMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6190FC0B186E5E1E7925743 /* Pods_RxMVVMTests.framework */; };
+		BD34F2FAD630DE3443C0BCEC /* Pods_RxMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8946EF11B7918FD5E8644804 /* Pods_RxMVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +64,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FF8D5E90968DD9DBD5BD185 /* Pods-RxMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.release.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.release.xcconfig"; sourceTree = "<group>"; };
-		3A2F08F4C7C9A6A4AAA82463 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
-		41D6FC792D18B3B0008F30DA /* RxMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BD70250E522C7AC508EAE6 /* Pods-RxMVVM-RxMVVMUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.dev.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.dev.xcconfig"; sourceTree = "<group>"; };
+		16B51C7554ED981A31F9B185 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AEE157B794784ADB5B3F3A8 /* Pods-RxMVVMTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.staging.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.staging.xcconfig"; sourceTree = "<group>"; };
+		343EC1F2042A39CF9385F696 /* Pods-RxMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0AF0F8C0EA3991D110CD73 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		418586882D1A292300FDD98A /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		418586892D1A293200FDD98A /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		41D6FC792D18B3B0008F30DA /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D6FC8F2D18B3B1008F30DA /* RxMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D6FC932D18B3B1008F30DA /* RxMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMTests.swift; sourceTree = "<group>"; };
 		41D6FC992D18B3B1008F30DA /* RxMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,13 +109,16 @@
 		41D6FCD92D18B42A008F30DA /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		41D6FCDA2D18B42A008F30DA /* Supporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supporter.swift; sourceTree = "<group>"; };
 		41D6FCFA2D18F475008F30DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CE16891EA2173A54C18018F /* Pods_RxMVVM_RxMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM_RxMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F912EE1DC2326FEFF34122 /* Pods_RxMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B40F44E0F1D3901A7737D5E2 /* Pods_RxMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D091CEA3C88A0DCC5CA00494 /* Pods-RxMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
-		D92005C786020DDAA45632C7 /* Pods-RxMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E8BCD55BE8D1175FE1B0BF82 /* Pods-RxMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.debug.xcconfig"; sourceTree = "<group>"; };
-		F6B3742A73630C02A2BBB9D2 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AADB59C49B0EAEBE02370BA /* Pods-RxMVVMTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.dev.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.dev.xcconfig"; sourceTree = "<group>"; };
+		4BFE1814E88A919F5F00C72C /* Pods-RxMVVM.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.staging.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.staging.xcconfig"; sourceTree = "<group>"; };
+		79548200432E10C40AFF0EC9 /* Pods-RxMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		8946EF11B7918FD5E8644804 /* Pods_RxMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932402D58A04ECBABB383CEB /* Pods-RxMVVM.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.dev.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.dev.xcconfig"; sourceTree = "<group>"; };
+		9E3DBBD489A17F4BAA53F8D1 /* Pods-RxMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D298EE3B8079B85A1DE4B8D7 /* Pods-RxMVVM-RxMVVMUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM-RxMVVMUITests.staging.xcconfig"; path = "Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		D6007F4CA2A13786050B332B /* Pods_RxMVVM_RxMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM_RxMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C2C508F486473B653D6460 /* Pods-RxMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.release.xcconfig"; path = "Target Support Files/Pods-RxMVVM/Pods-RxMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		F6190FC0B186E5E1E7925743 /* Pods_RxMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8922CB2E742BAC5689F8C6 /* Pods_RxMVVM.framework in Frameworks */,
+				BD34F2FAD630DE3443C0BCEC /* Pods_RxMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D058DE4B0FE02F141E8BAF0 /* Pods_RxMVVMTests.framework in Frameworks */,
+				B5E68C7D6C05F9E55DA6E886 /* Pods_RxMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,13 +142,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AE8B033734C60BDEF65F35 /* Pods_RxMVVM_RxMVVMUITests.framework in Frameworks */,
+				60F95E8E75F66ECD91945FF0 /* Pods_RxMVVM_RxMVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		418586872D1A28D800FDD98A /* SchemeCofigurations */ = {
+			isa = PBXGroup;
+			children = (
+				418586882D1A292300FDD98A /* Dev.xcconfig */,
+				418586892D1A293200FDD98A /* Prod.xcconfig */,
+			);
+			path = SchemeCofigurations;
+			sourceTree = "<group>";
+		};
 		41D6FC702D18B3B0008F30DA = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +166,14 @@
 				41D6FC9C2D18B3B1008F30DA /* RxMVVMUITests */,
 				41D6FC7A2D18B3B0008F30DA /* Products */,
 				FF245F8AEEC1B7FAD1F6FDD3 /* Pods */,
-				DD7FF461A27E677AC2529D18 /* Frameworks */,
+				FE94218D6660A651F60FFB08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		41D6FC7A2D18B3B0008F30DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41D6FC792D18B3B0008F30DA /* RxMVVM.app */,
+				41D6FC792D18B3B0008F30DA /* .app */,
 				41D6FC8F2D18B3B1008F30DA /* RxMVVMTests.xctest */,
 				41D6FC992D18B3B1008F30DA /* RxMVVMUITests.xctest */,
 			);
@@ -183,6 +200,7 @@
 		41D6FCAC2D18B42A008F30DA /* RxMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				418586872D1A28D800FDD98A /* SchemeCofigurations */,
 				41D6FCAD2D18B42A008F30DA /* Home */,
 				41D6FCC02D18B42A008F30DA /* FilmDetails */,
 				41D6FCC92D18B42A008F30DA /* Core */,
@@ -339,12 +357,12 @@
 			path = APIService;
 			sourceTree = "<group>";
 		};
-		DD7FF461A27E677AC2529D18 /* Frameworks */ = {
+		FE94218D6660A651F60FFB08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B40F44E0F1D3901A7737D5E2 /* Pods_RxMVVM.framework */,
-				5CE16891EA2173A54C18018F /* Pods_RxMVVM_RxMVVMUITests.framework */,
-				67F912EE1DC2326FEFF34122 /* Pods_RxMVVMTests.framework */,
+				8946EF11B7918FD5E8644804 /* Pods_RxMVVM.framework */,
+				D6007F4CA2A13786050B332B /* Pods_RxMVVM_RxMVVMUITests.framework */,
+				F6190FC0B186E5E1E7925743 /* Pods_RxMVVMTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -352,12 +370,18 @@
 		FF245F8AEEC1B7FAD1F6FDD3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8BCD55BE8D1175FE1B0BF82 /* Pods-RxMVVM.debug.xcconfig */,
-				0FF8D5E90968DD9DBD5BD185 /* Pods-RxMVVM.release.xcconfig */,
-				F6B3742A73630C02A2BBB9D2 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */,
-				3A2F08F4C7C9A6A4AAA82463 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */,
-				D92005C786020DDAA45632C7 /* Pods-RxMVVMTests.debug.xcconfig */,
-				D091CEA3C88A0DCC5CA00494 /* Pods-RxMVVMTests.release.xcconfig */,
+				343EC1F2042A39CF9385F696 /* Pods-RxMVVM.debug.xcconfig */,
+				932402D58A04ECBABB383CEB /* Pods-RxMVVM.dev.xcconfig */,
+				4BFE1814E88A919F5F00C72C /* Pods-RxMVVM.staging.xcconfig */,
+				E5C2C508F486473B653D6460 /* Pods-RxMVVM.release.xcconfig */,
+				16B51C7554ED981A31F9B185 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */,
+				06BD70250E522C7AC508EAE6 /* Pods-RxMVVM-RxMVVMUITests.dev.xcconfig */,
+				D298EE3B8079B85A1DE4B8D7 /* Pods-RxMVVM-RxMVVMUITests.staging.xcconfig */,
+				3C0AF0F8C0EA3991D110CD73 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */,
+				9E3DBBD489A17F4BAA53F8D1 /* Pods-RxMVVMTests.debug.xcconfig */,
+				4AADB59C49B0EAEBE02370BA /* Pods-RxMVVMTests.dev.xcconfig */,
+				1AEE157B794784ADB5B3F3A8 /* Pods-RxMVVMTests.staging.xcconfig */,
+				79548200432E10C40AFF0EC9 /* Pods-RxMVVMTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -369,11 +393,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41D6FCA32D18B3B1008F30DA /* Build configuration list for PBXNativeTarget "RxMVVM" */;
 			buildPhases = (
-				5C1EA9B7E9A2EC4CF096503B /* [CP] Check Pods Manifest.lock */,
+				A966044EAC52D77DDB98FAB5 /* [CP] Check Pods Manifest.lock */,
 				41D6FC752D18B3B0008F30DA /* Sources */,
 				41D6FC762D18B3B0008F30DA /* Frameworks */,
 				41D6FC772D18B3B0008F30DA /* Resources */,
-				6E98F4CB775890F0F37A0A37 /* [CP] Embed Pods Frameworks */,
+				4F5BBD0BDA15C7F46552977E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,14 +405,14 @@
 			);
 			name = RxMVVM;
 			productName = RxMVVM;
-			productReference = 41D6FC792D18B3B0008F30DA /* RxMVVM.app */;
+			productReference = 41D6FC792D18B3B0008F30DA /* .app */;
 			productType = "com.apple.product-type.application";
 		};
 		41D6FC8E2D18B3B1008F30DA /* RxMVVMTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41D6FCA62D18B3B1008F30DA /* Build configuration list for PBXNativeTarget "RxMVVMTests" */;
 			buildPhases = (
-				054790232B620A61CCE074DA /* [CP] Check Pods Manifest.lock */,
+				847FADE8CD2709349ECD0DBC /* [CP] Check Pods Manifest.lock */,
 				41D6FC8B2D18B3B1008F30DA /* Sources */,
 				41D6FC8C2D18B3B1008F30DA /* Frameworks */,
 				41D6FC8D2D18B3B1008F30DA /* Resources */,
@@ -407,11 +431,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41D6FCA92D18B3B1008F30DA /* Build configuration list for PBXNativeTarget "RxMVVMUITests" */;
 			buildPhases = (
-				1478C8FEFF85A1687780D55A /* [CP] Check Pods Manifest.lock */,
+				743CF27A8EF9750AB4586F30 /* [CP] Check Pods Manifest.lock */,
 				41D6FC952D18B3B1008F30DA /* Sources */,
 				41D6FC962D18B3B1008F30DA /* Frameworks */,
 				41D6FC972D18B3B1008F30DA /* Resources */,
-				379C3C4F7803DC342987B6D9 /* [CP] Embed Pods Frameworks */,
+				938F2FB30E153E5CA851A24D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -498,29 +522,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		054790232B620A61CCE074DA /* [CP] Check Pods Manifest.lock */ = {
+		4F5BBD0BDA15C7F46552977E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxMVVMTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1478C8FEFF85A1687780D55A /* [CP] Check Pods Manifest.lock */ = {
+		743CF27A8EF9750AB4586F30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,7 +561,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		379C3C4F7803DC342987B6D9 /* [CP] Embed Pods Frameworks */ = {
+		847FADE8CD2709349ECD0DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938F2FB30E153E5CA851A24D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,7 +600,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxMVVM-RxMVVMUITests/Pods-RxMVVM-RxMVVMUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C1EA9B7E9A2EC4CF096503B /* [CP] Check Pods Manifest.lock */ = {
+		A966044EAC52D77DDB98FAB5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -579,23 +620,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E98F4CB775890F0F37A0A37 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -665,6 +689,280 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4185867B2D1A22A900FDD98A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		4185867C2D1A22A900FDD98A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFE1814E88A919F5F00C72C /* Pods-RxMVVM.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVM;
+				PRODUCT_MODULE_NAME = "$(app_name:c99extidentifier)";
+				PRODUCT_NAME = "$(app_name)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		4185867D2D1A22A900FDD98A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEE157B794784ADB5B3F3A8 /* Pods-RxMVVMTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RxMVVM";
+			};
+			name = Staging;
+		};
+		4185867E2D1A22A900FDD98A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D298EE3B8079B85A1DE4B8D7 /* Pods-RxMVVM-RxMVVMUITests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxMVVM;
+			};
+			name = Staging;
+		};
+		4185868A2D1A2CB900FDD98A /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418586882D1A292300FDD98A /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Dev;
+		};
+		4185868B2D1A2CB900FDD98A /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932402D58A04ECBABB383CEB /* Pods-RxMVVM.dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(app_bundle_identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.MAK.RxMVVM;
+				PRODUCT_MODULE_NAME = "$(app_name:c99extidentifier)";
+				PRODUCT_NAME = "$(app_name)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		4185868C2D1A2CB900FDD98A /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AADB59C49B0EAEBE02370BA /* Pods-RxMVVMTests.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RxMVVM";
+			};
+			name = Dev;
+		};
+		4185868D2D1A2CB900FDD98A /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BD70250E522C7AC508EAE6 /* Pods-RxMVVM-RxMVVMUITests.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9JRGR6BGH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxMVVM;
+			};
+			name = Dev;
+		};
 		41D6FCA12D18B3B1008F30DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -730,6 +1028,7 @@
 		};
 		41D6FCA22D18B3B1008F30DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418586892D1A293200FDD98A /* Prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -786,7 +1085,7 @@
 		};
 		41D6FCA42D18B3B1008F30DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8BCD55BE8D1175FE1B0BF82 /* Pods-RxMVVM.debug.xcconfig */;
+			baseConfigurationReference = 343EC1F2042A39CF9385F696 /* Pods-RxMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -798,9 +1097,9 @@
 				INFOPLIST_FILE = RxMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -808,7 +1107,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVM;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = "$(app_name:c99extidentifier)";
+				PRODUCT_NAME = "$(app_name)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -817,10 +1117,11 @@
 		};
 		41D6FCA52D18B3B1008F30DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FF8D5E90968DD9DBD5BD185 /* Pods-RxMVVM.release.xcconfig */;
+			baseConfigurationReference = E5C2C508F486473B653D6460 /* Pods-RxMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G9JRGR6BGH;
@@ -829,17 +1130,20 @@
 				INFOPLIST_FILE = RxMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MAK.RxMVVM;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(app_bundle_identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.MAK.RxMVVM;
+				PRODUCT_MODULE_NAME = "$(app_name:c99extidentifier)";
+				PRODUCT_NAME = "$(app_name)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -848,7 +1152,7 @@
 		};
 		41D6FCA72D18B3B1008F30DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D92005C786020DDAA45632C7 /* Pods-RxMVVMTests.debug.xcconfig */;
+			baseConfigurationReference = 9E3DBBD489A17F4BAA53F8D1 /* Pods-RxMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -869,7 +1173,7 @@
 		};
 		41D6FCA82D18B3B1008F30DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D091CEA3C88A0DCC5CA00494 /* Pods-RxMVVMTests.release.xcconfig */;
+			baseConfigurationReference = 79548200432E10C40AFF0EC9 /* Pods-RxMVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -890,7 +1194,7 @@
 		};
 		41D6FCAA2D18B3B1008F30DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B3742A73630C02A2BBB9D2 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */;
+			baseConfigurationReference = 16B51C7554ED981A31F9B185 /* Pods-RxMVVM-RxMVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -909,7 +1213,7 @@
 		};
 		41D6FCAB2D18B3B1008F30DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A2F08F4C7C9A6A4AAA82463 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */;
+			baseConfigurationReference = 3C0AF0F8C0EA3991D110CD73 /* Pods-RxMVVM-RxMVVMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -933,6 +1237,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41D6FCA12D18B3B1008F30DA /* Debug */,
+				4185868A2D1A2CB900FDD98A /* Dev */,
+				4185867B2D1A22A900FDD98A /* Staging */,
 				41D6FCA22D18B3B1008F30DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -942,6 +1248,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41D6FCA42D18B3B1008F30DA /* Debug */,
+				4185868B2D1A2CB900FDD98A /* Dev */,
+				4185867C2D1A22A900FDD98A /* Staging */,
 				41D6FCA52D18B3B1008F30DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -951,6 +1259,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41D6FCA72D18B3B1008F30DA /* Debug */,
+				4185868C2D1A2CB900FDD98A /* Dev */,
+				4185867D2D1A22A900FDD98A /* Staging */,
 				41D6FCA82D18B3B1008F30DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -960,6 +1270,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41D6FCAA2D18B3B1008F30DA /* Debug */,
+				4185868D2D1A2CB900FDD98A /* Dev */,
+				4185867E2D1A22A900FDD98A /* Staging */,
 				41D6FCAB2D18B3B1008F30DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
